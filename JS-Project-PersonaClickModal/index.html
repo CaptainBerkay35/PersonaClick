@@ -1,0 +1,239 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>PersonaClick Web Project</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="modal.css" />
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.min.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+
+</head>
+<body>
+    <header>
+        <div class="upper-header">
+            <div class="upper-left">
+                <a href="#"><img src="img/search.svg" alt="Search" class="logo" id="search-btn" /></a>
+            </div>
+            <div class="upper-middle">
+                <a href="#"><img src="img/logo.png" alt="Logo" class="logo" /></a>
+            </div>
+            <div class="upper-right">
+                <a href="#"><img src="img/account.svg" alt="Account" class="logo" /></a>
+                <button class="menu-toggle">
+                  <span class="menu-icon"></span>
+                </button>
+              </div>
+        </div>
+        <div class="under-header">
+            <ul>
+                <li><a href="#">SOFRA</a></li>
+                <li><a href="#">MUTFAK</a></li>
+                <li><a href="#">ÇAY & KAHVE</a></li>
+                <li><a href="#">YENİLER</a></li>
+                <li><a href="#">FIRSAT KÖŞESİ</a></li>
+                <li><a href="#">OUTLET</a></li>
+                <li><a href="#">ÇOK SATANLAR</a></li>
+            </ul>
+        </div>
+        <div class="mobile-menu">
+          <button class="close-menu">&times;</button>
+          <ul>
+            <li><a href="#">SOFRA</a></li>
+            <li><a href="#">MUTFAK</a></li>
+            <li><a href="#">ÇAY & KAHVE</a></li>
+            <li><a href="#">YENİLER</a></li>
+            <li><a href="#">FIRSAT KÖŞESİ</a></li>
+            <li><a href="#">OUTLET</a></li>
+            <li><a href="#">ÇOK SATANLAR</a></li>
+          </ul>
+        </div>
+    </header>
+
+    <div id="search-modal" class="modal">
+        <div class="modal-header">
+            <div class="modal-header-content">
+                <input type="text" class="search-input" placeholder="Search..." />
+                <button class="search-button">Search</button>
+                <button class="close-btn" id="close-btn">X</button>
+            </div>
+        </div>
+        <div class="modal-content">
+            <div class="modal-content-left">
+                <h1>Öne Çıkanlar</h1>
+                <ul>
+                    <li>Moderna</li>
+                    <li>Angelica</li>
+                    <li>Yemek Takımı</li>
+                </ul>
+            </div>
+            <div class="modal-content-right">
+                <div class="modal-content-right-content">
+                    <h1>Sizin İçin Önerilenler</h1>
+                    <div class="owl-carousel">
+                        <div class="item">
+                          <div class="item-img">
+                            <img
+                              src="img/slider-img/atamiza-minnet-cay-seti-14023-10-O.jpg"
+                              alt="Slide 1"
+                            />
+                            <button class="item-button">Sepete Ekle</button>
+                          </div>
+                          <div class="item-content">
+                            <div class="item-name">
+                              Kütahya Porselen Moderna 16 Parça 4 Kişilik Yemek Takımı Tarçın
+                            </div>
+                            <div class="item-price">
+                                <div class="item-price-span">
+                                    <span>%25</span>
+                                    <span>İndirim</span>
+                                </div>
+                              <div class="discount">
+                                  <h4>2112</h3>
+                                      <h3>1579</h2>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                        <div class="item">
+                          <div class="item-img">
+                            <img
+                              src="img/slider-img/kutahya-porselen-moderna-16-parca-4-kisilik-yemek-takimi-tarcin-17257-11-O.jpg"
+                              alt="Slide 2"
+                            />
+                            <button class="item-button">Sepete Ekle</button>
+                          </div>
+                          <div class="item-content">
+                            <div class="item-name">
+                              Kütahya Porselen New Tuana 12 Parça 6 Kişilik Kahve Takımı Pembe
+                            </div>
+                            <div class="item-price">
+                                <div class="item-price-span">
+                                    <span>%25</span>
+                                    <span>İndirim</span>
+                                </div>
+                              
+                              <div class="discount">
+                                  <h4>2112</h3>
+                                      <h3>1579</h2>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                        <div class="item">
+                          <div class="item-img">
+                            <img
+                            class="item-img-content"
+                              src="img/slider-img/kutahya-porselen-moderna-8-parca-2-kisilik-yemek-takimi-krem-17586-11-O.jpg"
+                              alt="Slide 3"
+                            />
+                            <button class="item-button">Sepete Ekle</button>
+                          </div>
+                          <div class="item-content">
+                            <div class="item-name" title="Kütahya Porselen New Tuana 12 Parça 6 Kişilik Kahve Takımı Gri">
+                              Kütahya Porselen New Tuana 12 Parça 6 Kişilik Kahve Takımı Gri
+                            </div>
+                            <div class="item-price">
+                                <div class="item-price-span">
+                                    <span>%25</span>
+                                    <span>İndirim</span>
+                                </div>
+                              <div class="discount">
+                                  <h4>2112</h3>
+                                      <h3>1579</h2>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                        <div class="item">
+                          <div class="item-img">
+                            <img
+                              src="img/slider-img/kutahya-porselen-moderna-pretty-15-cm-tabak-18127-11-O.jpg"
+                              alt="Slide 4"
+                            />
+                            <button class="item-button">Sepete Ekle</button>
+                          </div>
+                          <div class="item-content">
+                            <div class="item-name">
+                              Kütahya Porselen Pretty 4 Parça 15 cm Tabak
+                            </div>
+                            <div class="item-price">
+                                <div class="item-price-span">
+                                    <span>%25</span>
+                                    <span>İndirim</span>
+                                </div>
+                              <div class="discount">
+                                  <h4>2112</h3>
+                                      <h3>1579</h2>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                        <div class="item">
+                          <div class="item-img">
+                            <img
+                              src="img/slider-img/kutahya-porselen-new-tuvana-kahve-takimi-pembe-15266-10-O.jpg"
+                              alt="Slide 5"
+                            />
+                            <button class="item-button">Sepete Ekle</button>
+                          </div>
+                          <div class="item-content">
+                            <div class="item-name">Porflame Porselen 25 cm Kapaklı Tava</div>
+                            <div class="item-price">
+                                <div class="item-price-span">
+                                    <span>%25</span>
+                                    <span>İndirim</span>
+                                </div>
+                              <div class="discount">
+                                <h4>2112</h3>
+                                <h3>1579</h2>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                        <div class="item">
+                          <div class="item-img">
+                            <img
+                              src="img/slider-img/porflame-porselen-25-cm-kapakli-tava-13630-94-O.jpg"
+                              alt="Slide 6"
+                            />
+                            <button class="item-button">Sepete Ekle</button>
+                          </div>
+                          <div class="item-content">
+                            <div class="item-name">
+                              Kütahya Porselen 2 Parça Tek Kişilik Atamıza Minnet Atatürk Çay
+                              Takımı
+                            </div>
+                            <div class="item-price">
+                                <div class="item-price-span">
+                                    <span>%25</span>
+                                    <span>İndirim</span>
+                                </div>
+                              <div class="discount">
+                                  <h4>2112</h3>
+                                      <h3>1579</h2>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+         
+                </div>
+              
+            </div>
+        </div>
+    </div>
+
+    
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"></script>
+        <script src="modal.js"></script>
+
+   
+</body>
+</html>
